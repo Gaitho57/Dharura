@@ -1,0 +1,133 @@
+.get-started-page {
+  background: url("/home/Guru/Desktop/learn/learn-react/src/assets/8.png") center center fixed;
+  background-size: cover;
+  padding: 20px;
+  padding-top: 120px; /* Adjusted value to give more space for the hero section */
+  font-family: Arial, sans-serif;
+}
+
+/* Hero section styles */
+.hero-section {
+  text-align: center;
+  margin-top: 60px; /* Adjusted value to start the hero section lower */
+  padding: 60px 20px; /* Adjusted padding for better readability */
+  background-position: center center;
+  background-size: cover;
+  color: #fff; /* Set text color to white */
+}
+
+.hero-section h1 {
+  font-size: 48px; /* Increased font size for emphasis */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 18px; /* Increased font size for better readability */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Key Features section styles */
+.key-features {
+  margin-bottom: 30px;
+}
+
+.key-features h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.feature-card {
+  width: 28%;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.feature-card img {
+  width: 50px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Quick Start section styles */
+.quick-start {
+  margin-bottom: 30px;
+}
+
+.quick-start h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quick-start ol {
+  padding-left: 20px;
+}
+
+/* Help & Resources section styles */
+.help-resources {
+  margin-bottom: 30px;
+}
+
+.help-resources h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.help-resources ul {
+  padding-left: 20px;
+}
+
+.help-resources a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Call to Action section styles */
+.cta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cta h2 {
+  font-size: 24px; /* Adjusted font size for emphasis */
+}
+
+.cta button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Testimonials section styles */
+.testimonials li {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.testimonials p {
+  font-style: italic;
+}

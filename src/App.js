@@ -7,6 +7,7 @@ import Learn from './routes/Learn'
 import Map from './routes/Map'
 import Post from './routes/Post'
 import { Route, Routes } from 'react-router-dom'
+import GetStarted from './routes/GetStarted'
 
 function App() {
    return (
@@ -18,6 +19,7 @@ function App() {
     <Route path='/Learn' element={<Learn />} />
     <Route path='/map' element={<Map />} />
     <Route path='/post' element={<Post />} />
+    <Route path='get-started' element={<GetStarted />} />
     </Routes>
     </>
   );

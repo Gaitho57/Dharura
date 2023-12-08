@@ -23,7 +23,7 @@
 .hero {
   height: 100%;
   width: 100%;
-  position: relative; /* Add this line */
+  position: relative;
 }
 
 .hero .content {
@@ -32,42 +32,36 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  padding: 20px; /* Add padding to give some space around the content */
-  color: #fff; /* Set text color to white or another suitable color */
+  padding: 20px;
+  color: #fff;
 }
 
 .hero .content h1 {
-  margin-bottom: 20px; /* Add margin below the heading */
+  font-size: 4rem;
+  margin-bottom: 20px;
 }
 
 .hero .content p {
-  max-width: 600px; /* Limit the width of the paragraph for better readability */
-  margin: 0 auto; /* Center the paragraph */
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.4rem;
 }
 
 .hero .content div {
-  margin-top: 20px; /* Add margin to separate the buttons from the paragraph */
-}
-.hero .content h1 {
-  font-size: 4rem;
-  padding: 0.6rem 0 1.5rem;
+  margin-top: 20px;
 }
 
-.hero .content p {
-  font-size: 1.4rem;
-  text-weight: 200;
-}
-
-.content .btn {
+.hero .content .btn {
   margin: 1rem 0.2;
+  cursor: pointer;
 }
-@media screen and (max-width:640px) {
+
+@media screen and (max-width: 640px) {
   .hero .content h1 {
-  font-size: 3rem;
-}
+    font-size: 3rem;
+  }
 
-.hero .content p {
-  font-size: 1.4rem;
-}
-
+  .hero .content p {
+    font-size: 1.2rem;
+  }
 }
