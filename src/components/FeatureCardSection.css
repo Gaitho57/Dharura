@@ -1,0 +1,42 @@
+/* FeatureCardSection.css */
+
+.key-features {
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-card {
+  background-color: #3498db; /* Updated card color */
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.feature-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.feature-card h3 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.feature-card p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+}
